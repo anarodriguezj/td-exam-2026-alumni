@@ -10,11 +10,11 @@ variable "gcp-network" {
 
 variable "gcp-region" {
   description = "GCP region"
-  type        = "eu-west4"
+  type        = "europe-west4"
 }
 variable "gcp-zone" {
   description = "GCP zone"
-  type        = "eu-west4-a"
+  type        = "europe-west4-a"
 }
 variable "gcp-cluster-name" {
   description = "Cluster name"
