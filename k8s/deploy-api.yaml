@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: api-gw
-          image: gcr.io/${{ env.tdfinal-494609 }}/api-gw:latest
+          image: gcr.io/tdfinal-494609/api-gw:latest
           ports:
             - containerPort: 3000
