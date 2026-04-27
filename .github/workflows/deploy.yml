@@ -54,7 +54,7 @@ jobs:
       run: |
         gcloud container clusters get-credentials $GKE_CLUSTER --zone $GKE_ZONE
         kubectl apply -f k8s/svc-router.yaml
-        kubectl apply -f k8s/svc-storage.yaml
+        kubectl apply -f k8s/svc-store.yaml
         kubectl apply -f k8s/svc-api.yaml
         kubectl apply -f k8s/sts-router.yaml
         kubectl apply -f k8s/sts-store.yaml
