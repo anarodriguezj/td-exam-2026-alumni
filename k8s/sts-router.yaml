@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: router
-          image: gcr.io/${{ env.tdfinal-494609 }}/router:latest
+          image: gcr.io/tdfinal-494609/router:latest
           ports:
             - containerPort: 3000
           volumeMounts:
