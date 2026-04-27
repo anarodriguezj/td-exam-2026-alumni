@@ -11,7 +11,7 @@ resource "google_container_cluster" "primary" {
 }
 
 resource "google_container_node_pool" "primary_nodes" {
-  name       = "${<placeholder>}-node-pool"
+  name       = "${var.gcp-cluster-name}-node-pool"
   cluster    = google_container_cluster.primary.name
   location   = var.gcp-zone
   node_count = var.gcp-node-count
