@@ -10,15 +10,15 @@ variable "gcp-network" {
 
 variable "gcp-region" {
   description = "GCP region"
-  type        = "europe-west4"
+  type        = europe-west4
 }
 variable "gcp-zone" {
   description = "GCP zone"
-  type        = "europe-west4-a"
+  type        = europe-west4-a
 }
 variable "gcp-cluster-name" {
   description = "Cluster name"
-  type        = "anarodriguezj-td2026"
+  type        = anarodriguezj-td2026
 }
 
 variable "gcp-node-count" {
@@ -27,5 +27,5 @@ variable "gcp-node-count" {
 }
 variable "gcp-node-size" {
   description = "Size K8s Worker nodes"
-  type        = "e2.small"
+  type        = e2.small
 }
